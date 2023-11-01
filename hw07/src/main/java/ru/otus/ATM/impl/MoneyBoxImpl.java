@@ -1,8 +1,10 @@
-package ru.otus;
+package ru.otus.ATM.impl;
 
-import ru.otus.Interfaces.MoneyBox;
+import ru.otus.ATM.MoneyBox;
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class MoneyBoxImpl implements MoneyBox {
     private Map <Integer, Integer> moneyMap = new HashMap<>();

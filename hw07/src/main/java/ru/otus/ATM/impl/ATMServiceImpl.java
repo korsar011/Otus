@@ -1,6 +1,6 @@
-package ru.otus;
+package ru.otus.ATM.impl;
 
-import ru.otus.Interfaces.ATMService;
+import ru.otus.ATM.ATMService;
 
 import java.util.*;
 

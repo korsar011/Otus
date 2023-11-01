@@ -1,6 +1,6 @@
-package ru.otus;
+package ru.otus.ATM.impl;
 
-import ru.otus.Interfaces.Calculator;
+import ru.otus.ATM.Calculator;
 import java.util.Map;
 
 public class CalculatorImpl implements Calculator {
@@ -19,8 +19,7 @@ public class CalculatorImpl implements Calculator {
         System.out.println("Остаток средств в банкомате: " + totalAmount);
     }
     public void showDenomination() {
-        System.out.println();
-        System.out.println("Количество купюр в банкомате");
+        System.out.println("\nКоличество купюр в банкомате");
         for (Map.Entry<Integer, Integer> entry : moneyMap.entrySet()) {
             int denomination = entry.getKey();
             int amount = entry.getValue();

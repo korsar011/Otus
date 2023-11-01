@@ -1,7 +1,12 @@
-package ru.otus;
+package ru.otus.ATM.impl;
 
-import ru.otus.Interfaces.Calculator;
-import ru.otus.Interfaces.DenominatorInit;
+import ru.otus.ATM.Calculator;
+import ru.otus.ATM.DenominatorInit;
+import ru.otus.ATM.impl.ATMServiceImpl;
+import ru.otus.ATM.impl.CalculatorImpl;
+import ru.otus.ATM.impl.DenominatorInitImpl;
+import ru.otus.ATM.impl.MoneyBoxImpl;
+
 import java.util.Scanner;
 
 public class ATM {
