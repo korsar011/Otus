@@ -4,6 +4,31 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="corretto-11" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/hw01-gradle" />
+            <option value="$PROJECT_DIR$/hw03" />
+            <option value="$PROJECT_DIR$/hw05" />
+            <option value="$PROJECT_DIR$/hw06" />
+            <option value="$PROJECT_DIR$/hw06/Ann-Processor" />
+            <option value="$PROJECT_DIR$/hw07" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/HW_Serialization" />
+        <option name="gradleHome" value="" />
+        <option name="gradleJvm" value="corretto-11" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/HW_Serialization" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/hw01-gradle" />
         <option name="gradleJvm" value="corretto-11" />
         <option name="modules">

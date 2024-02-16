@@ -1,0 +1,8 @@
+rootProject.name = 'Otus'
+include 'hw03'
+include 'hw05'
+include 'hw06'
+include 'hw06'
+include 'Ann-Processor'
+include 'hw07'
+include 'L25-di'
